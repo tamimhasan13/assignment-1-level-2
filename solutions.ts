@@ -63,4 +63,4 @@ const getIntersection=(arr1:number[],arr2:number[]):number[]=>{
     const result=arr1.filter((value)=>arr2.includes(value));
     return result
 }
-//  console.log(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]));
+
